@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-// import './App.css';
+import './App.css';
 
-import '../src/styles/dist/styles.css'
+// import '../src/styles/dist/styles.css'
 
 import Home from './pages/Home'
 import MusicPlayer from './components/MusicPlayer'
