@@ -324,4 +324,25 @@ body {
     border-width: 4px !important;
     border-radius: 4px !important;
   }
+  .footer {
+    margin: auto;
+    text-align: center;
+    font-size: 14px !important;
+  }
+  .footer .d-flex {
+    display: block !important;
+    justify-self: center;
+    margin-bottom: 12px;
+  }
+  .footer .copy-rights {
+    display: block !important;
+    justify-self: center;
+    margin-bottom: 12px;
+  }
+  .footer .copy-rights p {
+    margin-top: 8px;
+  }
+  .footer .social-links {
+    display: none;
+  }
 }

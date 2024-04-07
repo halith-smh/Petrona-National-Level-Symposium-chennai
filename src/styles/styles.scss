@@ -388,5 +388,28 @@ body {
             }
         }
 
+    .footer{
+        margin: auto;
+        text-align: center;
+        font-size: 14px !important;
+        .d-flex{
+            display: block !important;
+            justify-self: center;
+            margin-bottom: 12px;
+        }
+        .copy-rights{
+            display: block !important;
+            justify-self: center;
+            margin-bottom: 12px;
+            p{
+                margin-top: 8px;
+            }
+        }
+        .social-links{
+            display: none;
+        }
+    }
+
+
 }
 

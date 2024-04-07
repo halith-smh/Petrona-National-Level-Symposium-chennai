@@ -1,35 +1,38 @@
-import { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 
-import ParticleConfig from '../utils/particles.json'
+import ParticleConfig from '../utils/particles.json';
 
 import { loadFull } from "tsparticles";
-export default function Particle() {
-  const [init, setInit] = useState(false);
-  useEffect(() => {
-    console.log("init");
-    initParticlesEngine(async (engine) => {
-      await loadFull(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
 
-  const particlesLoaded = (container) => {
-  };
+function Particle() {
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    async function initParticleEngine() {
+      try {
+        const engine = await initParticlesEngine();
+        await loadFull(engine);
+        setInit(true);
+      } catch (error) {
+        console.error("Error initializing particles:", error);
+      }
+    }
+
+    initParticleEngine();
+  }, []);
 
   return (
     <>
       {init && (
         <Particles
           id="tsparticles"
-          particlesLoaded={particlesLoaded}
-          style={{
-            zIndex: 1,
-          }}
+          style={{ zIndex: 1 }}
           options={ParticleConfig}
         />
       )}
     </>
   );
 }
+
+export default Particle;
