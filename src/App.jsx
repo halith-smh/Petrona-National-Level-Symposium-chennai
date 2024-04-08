@@ -17,14 +17,12 @@ import CyberSleuth from './pages/tech/CyberSleuth'
 import SnapSeek from './pages/nontech/SnapSeek'
 import FilmFrency from './pages/nontech/FilmFrency'
 import ApexConquest from './pages/nontech/ApexConquest'
-import GoogleAnalytics from './utils/GoogleAnalytics'
 
 function App() {
 
   return (
    
       <BrowserRouter>
-      <GoogleAnalytics/>
       <Particle />
         <Routes>
           <Route path="/" element={<Home />} />
