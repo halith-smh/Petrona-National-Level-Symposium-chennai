@@ -18,7 +18,7 @@ function Home() {
   const tech = [
     { name: 'MindScapes Unfold', src: 'tech/event1', time: '10:30 AM' , type:'tech', path: '/event/mindscapes-unfold'},
     { name: 'Mysticode', src: 'tech/event2', time: '10:30AM', type:'tech', path: '/event/mysticode' },
-    { name: 'Tech Trivia', src: 'tech/event3', time: '10:30AM', type:'tech' , path: '/event/update'},
+    { name: 'Tech Trivia', src: 'tech/event3', time: '10:30AM', type:'tech' , path: '/event/tech-trivia'},
     { name: 'GrayScale', src: 'tech/event4', time: '10:30AM' , type:'tech', path: '/event/update'},
     { name: 'CyberSleuth', src: 'tech/event5', time: '10:50AM', type:'tech', path: '/event/update' }
   ]
