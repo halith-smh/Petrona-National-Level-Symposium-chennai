@@ -18,7 +18,7 @@ function Events() {
         "Team should comprise of only 3 members",
         "Individual participation is also encouraged",
         "Maximum 7 min is provided for each presentation (5 min presentation, 2 min Q&A session)",
-        "All participants are allowed to use a maximum"
+        "All participants are allowed to use a maximum of 12 slides"
     ];
 
     return (
@@ -32,7 +32,9 @@ function Events() {
                         <img src="/imgs/tech/event1.webp" width={450} alt="" />
                         <div className="btn-ly" style={{marginTop: -85, display: 'flex', justifyContent: 'center'}}>
                             <Button />
+                            
                         </div>
+                        <h5 style={{textAlign: 'center', marginTop: 28, fontSize: 25}}>+91 9840440839</h5>
                     </div>
                     <div className="info">
                         <h2>Topics</h2>
@@ -53,6 +55,9 @@ function Events() {
                             <h2>Coordinators</h2>
                             <p>Shyam Kumar A</p>
                             <p>Kirupa D</p>
+                            <p>Aravind G</p>
+                            <p>Janani P</p>
+                            <p>Arun KH</p>
                             <p>Sachin R</p>
                         </ul>
 

@@ -13,7 +13,7 @@ function Contact() {
                 <div className="student center">
                     <h3>Event Coordinators</h3>
                     <p>Roshaan Peeris R</p>
-                    <p>Nithish B</p>
+                    <p>Nithish D</p>
                     <p>ShakthiSree R</p>
                     <p>Sree Ashika A</p>
                 </div>
