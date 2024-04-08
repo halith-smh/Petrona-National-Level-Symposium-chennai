@@ -356,8 +356,35 @@ body {
 .events .d-flex .info {
   margin-left: 155px;
 }
+.events .d-flex .info ul {
+  margin-top: 12px;
+}
+.events .d-flex .info ul li {
+  margin: 6px 0;
+}
+.events .d-flex .info .students {
+  text-align: center;
+}
+.events .d-flex .info .students p {
+  margin-top: 6px;
+}
 .events .d-flex h2 {
-  margin: 12px 0;
+  margin: 12px auto;
+  text-align: center;
+  width: 50%;
+  background: linear-gradient(179.49deg, rgb(218, 223, 228) 42.19%, rgba(159, 167, 176, 0.22) 91.95%) text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+.events .d-flex h2::after {
+  content: "";
+  height: 4px;
+  display: block;
+  background: linear-gradient(to right, transparent, rgb(174, 0, 255), transparent);
+  /* Replace var('blue') with blue */
+  margin-bottom: 5px;
+  filter: drop-shadow(0 0 5px rgb(0, 0, 255));
+  /* Offset the underline slightly below the text */
 }
 
 .footer {
@@ -505,13 +532,26 @@ body {
   .footer .social-links {
     display: none;
   }
+  .events .count-h {
+    font-size: 24px;
+  }
   .events .d-flex {
     display: block !important;
     margin-left: 0px;
     width: 100%;
   }
+  .events .d-flex .img {
+    margin: auto;
+    text-align: center;
+  }
+  .events .d-flex img {
+    width: 320px !important;
+  }
   .events .d-flex .info {
     margin: 12px !important;
+  }
+  .events .d-flex .info h2 {
+    font-size: 24px;
   }
   .events .d-flex ul {
     margin-left: 0px;

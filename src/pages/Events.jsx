@@ -30,6 +30,9 @@ function Events() {
                 <div className="d-flex">
                     <div className="img">
                         <img src="/imgs/tech/event1.webp" width={450} alt="" />
+                        <div className="btn-ly" style={{marginTop: -85, display: 'flex', justifyContent: 'center'}}>
+                            <Button />
+                        </div>
                     </div>
                     <div className="info">
                         <h2>Topics</h2>
@@ -46,14 +49,14 @@ function Events() {
                             ))}
                         </ul>
 
-                        <ul>
+                        <ul className='students'>
                             <h2>Coordinators</h2>
                             <p>Shyam Kumar A</p>
                             <p>Kirupa D</p>
                             <p>Sachin R</p>
                         </ul>
 
-                            <Button/>
+
 
                     </div>
 
