@@ -1,5 +1,7 @@
 const tech = [
-    { name: 'MindScapes Unfold', src: 'event1', time: '10:30 AM' },
+    { name: 'MindScapes Unfold',
+     time: '10:30 AM' ,
+    },
     { name: 'Mysticode', src: 'event2', time: '10:30AM' },
     { name: 'Tech Trivia', src: 'event2', time: '10:30AM' },
     { name: 'DesignScape', src: 'event2', time: '10:30AM' },

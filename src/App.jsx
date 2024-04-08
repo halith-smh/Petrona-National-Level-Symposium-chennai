@@ -4,18 +4,26 @@ import './App.css';
 
 // import '../src/styles/dist/styles.css'
 
+import Particle from './components/Particle'
+
 import Home from './pages/Home'
-import MusicPlayer from './components/MusicPlayer'
+import Footer from './components/Footer'
+import Events from './pages/Events'
+import Update from './components/Update'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-      <MusicPlayer/>
+      <Particle />
         <Routes>
           <Route path="/" element={<Home />} />
+          
+          <Route path='/event/mindscapes-unfold' element={<Events/>} />
+          <Route path='/event/update' element={<Update/>} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   )
