@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Contact from '../components/Contact';
 import Button from '../components/Button';
 
 function Events() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const topics = [
         "AI in daily life",
         "The future of transportation",
@@ -30,11 +33,13 @@ function Events() {
                 <div className="d-flex">
                     <div className="img">
                         <img src="/imgs/tech/event1.webp" width={450} alt="" />
-                        <div className="btn-ly" style={{marginTop: -85, display: 'flex', justifyContent: 'center'}}>
+                        <div className="btn-ly" style={{marginTop: -5, display: 'flex', justifyContent: 'center'}}>
                             <Button />
                             
                         </div>
-                        <h5 style={{textAlign: 'center', marginTop: 28, fontSize: 25}}>+91 9840440839</h5>
+                        <h5 style={{textAlign: 'center', marginTop: 28, fontSize: 21}}>+91 9840440839</h5>
+                        <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Shyam Kumar A</h5>
+
                     </div>
                     <div className="info">
                         <h2>Topics</h2>

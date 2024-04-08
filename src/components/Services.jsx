@@ -22,7 +22,7 @@ function Services() {
             <div className="dot">  </div>
           </div>
           <i className='bx bxs-bowl-hot' ></i>
-          <p>Complimentary Meals</p>
+          <p>Complimentary Lunch</p>
           <div className="dotted-design down">
             <div className="dot">  </div>
             <div className="dot">  </div>
@@ -35,7 +35,7 @@ function Services() {
             <div className="dot">  </div>
           </div>
           <i class='bx bx-money'></i>
-          <p>Shields & Cash Prizes</p>
+          <p>Shield & Cash Prizes</p>
           <div className="dotted-design down">
             <div className="dot">  </div>
             <div className="dot">  </div>

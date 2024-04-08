@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import Button from '../../components/Button';
 
-function Mysticode() {
-
+function CyberSleuth() {
+  
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -33,17 +33,17 @@ function Mysticode() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">MYSTICODE</div>
-                <div className="count-p">Debugging</div>
+                <div className="count-h">CYBERSLEUTH</div>
+                <div className="count-p">Treasure Hunt</div>
 
                 <div className="d-flex">
                     <div className="img">
-                        <img src="/imgs/tech/event2.webp" width={450} alt="" />
+                        <img src="/imgs/tech/event5.webp" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 9500437641</h5>
+                        <h5 style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 9500437641</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Kishoth S</h5>
                     </div>
                     <div className="info">
@@ -96,4 +96,4 @@ function Mysticode() {
     )
 }
 
-export default Mysticode
+export default CyberSleuth

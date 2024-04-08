@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Logo from '../assets/imgs/logo.png'
 
@@ -15,18 +15,22 @@ import Contact from '../components/Contact'
 
 function Home() {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
+
   const tech = [
     { name: 'MindScapes Unfold', src: 'tech/event1', time: '10:30 AM' , type:'tech', path: '/event/mindscapes-unfold'},
     { name: 'Mysticode', src: 'tech/event2', time: '10:30AM', type:'tech', path: '/event/mysticode' },
     { name: 'Tech Trivia', src: 'tech/event3', time: '10:30AM', type:'tech' , path: '/event/tech-trivia'},
-    { name: 'GrayScale', src: 'tech/event4', time: '10:30AM' , type:'tech', path: '/event/update'},
+    { name: 'GrayScale', src: 'tech/event4', time: '10:30AM' , type:'tech', path: '/event/greyscale'},
     { name: 'CyberSleuth', src: 'tech/event5', time: '10:50AM', type:'tech', path: '/event/update' }
   ]
 
   const nonTech = [
-    { name: 'Snap Seek & Buzz', src: 'nontech/event1', time: '10:30 AM', type:'non-tech', path: '/event/update' },
-    { name: 'Film Frency', src: 'nontech/event2', time: '10:30AM', type:'non-tech', path: '/event/update' },
-    { name: 'Apex Conquest', src: 'nontech/event3', time: '10:30AM', type:'non-tech', path: '/event/update' },
+    { name: 'Snap Seek & Buzz', src: 'nontech/event1', time: '10:30 AM', type:'non-tech', path: '/event/snap-seek' },
+    { name: 'Film Frency', src: 'nontech/event2', time: '10:30AM', type:'non-tech', path: '/event/film-frency' },
+    { name: 'Apex Conquest', src: 'nontech/event3', time: '10:30AM', type:'non-tech', path: '/event/apex-conquest' },
   ]
 
   return (
@@ -34,6 +38,7 @@ function Home() {
       <div className="hero" style={{ zIndex: 180, position: 'relative' }}>
         <div className="container logo">
           <div className="logo-img"><img width={320} src={Logo} alt="Petrona - A National Level Technical Symposium" /></div>
+
           <div className="logo-txt glow" style={{ fontFamily: 'Netron' }}>Petrona</div>
           <Button className='reg-btn' />
         </div>

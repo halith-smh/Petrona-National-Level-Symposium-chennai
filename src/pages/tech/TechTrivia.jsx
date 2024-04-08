@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../../components/Button';
 
 function TechTrivia() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const rules = [
         "In this event, students can participate individually or as a team (maximum 2 members).",
         "The technical quiz event will be conducted in online mode, so participants are required to use their own mobile phones.",
@@ -40,8 +43,8 @@ function TechTrivia() {
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 28, fontSize: 25 }}>+91 9361680479</h5>
-                        <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 21 }}>Vasanth</h5>
+                        <h5 style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 6369386896</h5>
+                        <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Sai Manogna</h5>
                     </div>
                     <div className="info">
                         <h2>Description</h2>
