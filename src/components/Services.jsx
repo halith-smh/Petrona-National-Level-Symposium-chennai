@@ -34,7 +34,7 @@ function Services() {
             <div className="dot">  </div>
             <div className="dot">  </div>
           </div>
-          <i class='bx bx-money'></i>
+          <i className='bx bx-money'></i>
           <p>Shield & Cash Prizes</p>
           <div className="dotted-design down">
             <div className="dot">  </div>

@@ -42,8 +42,8 @@ function Home() {
           <div className="logo-img"><img width={320} src={Logo} alt="Petrona - A National Level Technical Symposium" /></div>
 
           <div className="logo-txt glow" style={{ fontFamily: 'Netron' }}>Petrona</div>
-          <div class="glitch-wrapper">
-            <div class="glitch" data-glitch="A National Level Technical Symposium">A National Level Technical Symposium</div>
+          <div className="glitch-wrapper">
+            <div className="glitch" style={{margin: '16px 0'}} data-glitch="A National Level Technical Symposium">A National Level Technical Symposium</div>
           </div>
           <Button className='reg-btn' />
         </div>
@@ -59,7 +59,6 @@ function Home() {
 
 
       <div className="grid-conatiner" style={{ position: 'relative' }}>
-        {console.log(tech)}
         {tech.map((event, index) => (
           <Events style={{ position: 'realative' }} events={event} key={index} />
         ))}
@@ -72,7 +71,6 @@ function Home() {
 
 
       <div className="grid-conatiner" style={{ position: 'relative' }}>
-        {console.log(tech)}
         {nonTech.map((event, index) => (
           <Events style={{ position: 'realative' }} events={event} key={index} />
         ))}
