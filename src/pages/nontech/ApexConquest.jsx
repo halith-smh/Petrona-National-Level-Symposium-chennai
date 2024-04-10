@@ -44,7 +44,7 @@ function ApexConquest() {
                             ))}
                         </ul>
 
-                       
+                       <p style={{margin: '12px 0'}}><i style={{color: 'orange'}} className='bx bxs-notepad' ></i> <strong>Note:</strong> Slight Modifications can be made for the competitive matches based on the registration count.</p>
 
                         <ul className='students'>
                             <h2>Coordinators</h2>
