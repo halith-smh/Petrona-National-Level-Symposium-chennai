@@ -36,7 +36,7 @@ body {
   background-image: linear-gradient(to right, #613aeb, #9e00b7);
   /* Adjust colors as desired */
   border: 0;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 
 .btn-primary:hover {
