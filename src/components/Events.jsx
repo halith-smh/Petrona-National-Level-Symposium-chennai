@@ -10,7 +10,6 @@ function Events({ events }) {
       };
     return (
         <div onClick={() => handleClick(events.path)} className="card" style={{ position: 'relative' }}>
-            {console.log(events.src)}
             <img src={`/imgs/${events.src}.webp`} alt="" width={380} />
             <h2>{events.name}</h2>
             <h6># {events.type}</h6>

@@ -42,7 +42,7 @@ function SnapSeek() {
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 7200642537</h5>
+                        <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 7200642537</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Sharan Shri Ram. V</h5>
                     </div>
                     <div className="info">
@@ -73,8 +73,11 @@ function SnapSeek() {
 
                         <ul className='students'>
                             <h2>Coordinators</h2>
-                            <p>Kesavapriya. P</p>
-                            <p>Sharan Shri Ram. V</p>
+                            <p>Kesavapriya P</p>
+                            <p>Sharan Shri Ram V</p>
+                            <p>Tholkappiyan E</p>
+                            <p>Bala Krishnan P</p>
+                            <p>Tamizhselvi B</p>
                         </ul>
 
 

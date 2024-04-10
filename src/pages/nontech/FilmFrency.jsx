@@ -55,7 +55,7 @@ function FilmFrency() {
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 2, fontSize: 21 }}>+91 8056985449</h5>
+                        <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 2, fontSize: 21 }}>+91 8056985449</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Mokeshwar. P</h5>
                     </div>
                     <div className="info">

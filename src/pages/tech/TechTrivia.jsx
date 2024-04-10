@@ -26,6 +26,12 @@ function TechTrivia() {
         "Participants will be given 1 minute for each question.",
         "From this round, the top 3 participants will be selected, and the winners will be announced."
     ];
+
+    const topics = [
+        "Artifical Intelligence",
+        "Data Science",
+        "Machine Learning"
+    ];
     
     
 
@@ -39,16 +45,16 @@ function TechTrivia() {
                 <div className="d-flex">
                     <div className="img">
                         <img src="/imgs/tech/event3.webp" width={450} alt="" />
-                        <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
+                        <div className="btn-ly" style={{ marginTop: 0, display: 'flex', justifyContent: 'center' }}>
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 6369386896</h5>
+                        <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 6369386896</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Sai Manogna</h5>
                     </div>
                     <div className="info">
                         <h2>Description</h2>
-                        <p>Dive into the world of AI, DI, and ML with our technical quiz.
+                        <p>Dive into the world of AI, DS, and ML with our technical quiz.
                             Test your knowledge and stay ahead in these dynamic fields
                         </p>
                         <h2>Rules</h2>
@@ -72,13 +78,20 @@ function TechTrivia() {
                             ))}
                         </ul>
 
+                        <h2>Topics</h2>
+                        <ul style={{textAlign: 'center', listStyle:'none'}}>
+                            <li><i className="bi bi-robot"></i>&nbsp; Artificial Intelligence</li>
+                            <li><i className="bi bi-bar-chart-line-fill"></i>&nbsp; Data Science</li>
+                            <li><i className='bx bxs-brain'></i>Machine Learning</li>
+                        </ul>
+
                         <ul className='students'>
                             <h2>Coordinators</h2>
                             <p>Vasanth</p>
                             <p>Sabari</p>
-                            <p>Vaishnavi Jadhav</p>
-                            <p>Sai Manogna</p>
-                            <p>Akash </p>
+                            <p>Vaishnavi Jadhav R</p>
+                            <p>Sai Manogna PR</p>
+                            <p>Akash M</p>
                             <p>Subapriya</p>
                         </ul>
 

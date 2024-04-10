@@ -43,8 +43,8 @@ function Mysticode() {
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 9500437641</h5>
-                        <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Kishoth S</h5>
+                        <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 9500437641</h5>
+                        <h5  style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Kishoth S</h5>
                     </div>
                     <div className="info">
                         <h2>Description</h2>

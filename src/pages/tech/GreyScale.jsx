@@ -14,7 +14,7 @@ function GreyScale() {
         "Bring your laptop with preferred design software. (Figma, Sketch, etc)"
     ];
     
-    const themes = ["Social Media", "Food delivery", "Ecommerce", "Music App"];
+
 
 
     
@@ -32,7 +32,7 @@ function GreyScale() {
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 21 }}>+91 9361341593</h5>
+                        <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 12, fontSize: 21 }}>+91 9361341593</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Madheshwaran M</h5>
                     </div>
                     <div className="info">
@@ -49,17 +49,21 @@ function GreyScale() {
                         </ul>
 
                         <h2>Themes</h2>
-                        <ul > 
-                            {themes.map((rule, index) => (
-                                <li key={index}>{rule}</li>
-                            ))}
+                        <ul style={{textAlign: 'center', listStyle: 'none'}} > 
+                           <li><i className="bi bi-instagram"></i> Social Media</li>
+                           <li><i className='bx bxs-bowl-hot' ></i> Food Delivery</li>
+                           <li><i className="bi bi-cart"></i> Ecommerce</li>
+                           <li><i className="bi bi-music-note-list"></i> Music App</li>
                         </ul>
 
                         <ul className='students'>
                             <h2>Coordinators</h2>
                             <p>Madheshwaran M</p>
-                            <p>Sethu Raja</p>
-                            <p>Varsha</p>
+                            <p>Sethu Raja P</p>
+                            <p>Sakthivinash B</p>
+                            <p>Varsha S</p>
+                            <p>Ramya S</p>
+                            <p>Kamini V</p>
                         </ul>
 
 

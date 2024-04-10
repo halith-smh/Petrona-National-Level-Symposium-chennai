@@ -6,10 +6,10 @@ function Footer() {
         <div className="d-flex">
             <div className="copy-rights">
                 <h4>COPYRIGHT © PETRONA 2024-25</h4>
-                <p>Made with ❤️ by <a href="http://linkedin.com/in/mohamed-halith-smh">Halith_SMH</a></p>
+                <p>Made with ❤️ by <a target='_blank' href="http://linkedin.com/in/mohamed-halith-smh">Halith_SMH</a></p>
             </div>
             <div className="social-links">
-            <i class='bx bxl-instagram'></i> <a href="https://www.instagram.com/petrona.act/">Petrona.act</a>
+            <i className='bx bxl-instagram'></i> <a target='_blank' href="https://www.instagram.com/petrona.act/">Petrona.act</a>
             </div>
         </div>
     </div>

@@ -1,99 +1,100 @@
-import React, { useEffect } from 'react'
-import Button from '../../components/Button';
+import React, { useEffect } from "react";
+import Button from "../../components/Button";
 
 function CyberSleuth() {
-  
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    const rules = [
-        "Each team can have a maximum of two members.",
-        "Do not discuss any strategy or logic of the program during a live contest.",
-        "All Participants are expected to abide by the rules & regulations of the contest.",
-        "Any Violation of the Rules & Regulations shall lead to the cancellation of the candidature from the competition.",
-        "In case of any conflict, the decision of the jury panel will be final."
-    ];
+  const rules = [
+    "Each team has to be 2 members",
+    "Usage of Chat-GPT or other genAI is prohibited",
+    "Time given to complete the task is 20 mins",
+    "Complete each challenge to reveal a letter",
+    "First participant who reveals a word is the winner",
+    "Having your own laptop is strongly encouraged"
+  ];
 
-    const round1 = [
-        "It will be a paper and pen round.",
-        "25 multiple choice questions are provided.",
-        "45 minutes for Round 1.",
-        "From the first round, top 8 members or teams are selected."
-    ];
+  const round1 = [
+    "Coding Challenge",
+    "Debugging",
+    "Crypo-graphic word puzzles",
+    "Data Exploration",
+    "HTML, CSS",
+    "Networking"
+  ];
 
-    const round2 = [
-        "It will be a debugging of given code.",
-        "3 questions with errors are given. You have to rectify the errors.",
-        "30 minutes given for this round."
-    ];
-    
+  const round2 = [
+    "It will be a debugging of given code.",
+    "3 questions with errors are given. You have to rectify the errors.",
+    "30 minutes given for this round.",
+  ];
 
+  return (
+    <>
+      <div className="events">
+        <div className="count-h">CYBERSLEUTH</div>
+        <div className="count-p">Treasure Hunt</div>
 
-    return (
-        <>
-            <div className='events'>
-                <div className="count-h">CYBERSLEUTH</div>
-                <div className="count-p">Treasure Hunt</div>
+        <div className="d-flex">
+          <div className="img">
+            <img src="/imgs/tech/event5.webp" width={450} alt="" />
+            <div
+              className="btn-ly"
+              style={{
+                marginTop: -5,
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Button />
+            </div>
+            <h5 className="event-phone" style={{ textAlign: "center", marginTop: 34, fontSize: 21 }}>
+              +91 7305840226
+            </h5>
+            <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
+              Rithish R
+            </h5>
+          </div>
+          <div className="info">
+            <h2>Description</h2>
+            <p>
+              Treasure hunt game which has 6 clues for a final result word (eg..
+              'Hakuna matata' ) need to solve all the challenges to find the
+              final word
+            </p>
+            <h2>Challenges</h2>
+            <ol>
+              {round1.map((rule, index) => (
+                <li key={index}>{rule}</li>
+              ))}
+            </ol>
 
-                <div className="d-flex">
-                    <div className="img">
-                        <img src="/imgs/tech/event5.webp" width={450} alt="" />
-                        <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
-                            <Button />
+            <h2>Rules</h2>
+            <ul>
+              {rules.map((rule, index) => (
+                <li key={index}>{rule}</li>
+              ))}
+            </ul>
 
-                        </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 9500437641</h5>
-                        <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Kishoth S</h5>
-                    </div>
-                    <div className="info">
-                        <h2>Description</h2>
-                        <p>Debugging is an programming event, which finds
-                            and resolves defects or problems within a computer
-                            program that prevent correct operation of c
-                            omputer software or a system.
-                        </p>
-                        <h2>Rules</h2>
-                        <ul>
-                            {rules.map((rule, index) => (
-                                <li key={index}>{rule}</li>
-                            ))}
-                        </ul>
+           
 
-                        <h2>Round-1</h2>
-                        <ul>
-                        {round1.map((rule, index) => (
-                                <li key={index}>{rule}</li>
-                            ))}
-                        </ul>
-
-                        <h2>Round-2</h2>
-                        <ul>
-                        {round2.map((rule, index) => (
-                                <li key={index}>{rule}</li>
-                            ))}
-                        </ul>
-
-                        <ul className='students'>
-                            <h2>Coordinators</h2>
-                            <p>Aravinth S</p>
-                            <p>Kishoth S</p>
-                            <p>Siva Ranjini M</p>
-                            <p>Rakesh T</p>
-                        </ul>
-
-
-
-                    </div>
-
-                </div>
-                {/* <div style={{margin: 'auto', textAlign: 'center'}}>
+            <ul className="students">
+              <h2>Coordinators</h2>
+              <p>Rithish R</p>
+              <p>Sneha sree S</p>
+              <p>Sachin R</p>
+              <p>Moneeshwar M</p>
+              <p>Vigesh E</p>
+            </ul>
+          </div>
+        </div>
+        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
                     <Button></Button>
                 </div> */}
-            </div>
-
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
-export default CyberSleuth
+export default CyberSleuth;

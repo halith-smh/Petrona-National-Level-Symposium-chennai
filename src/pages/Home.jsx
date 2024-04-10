@@ -24,7 +24,7 @@ function Home() {
     { name: 'Mysticode', src: 'tech/event2', time: '10:30AM', type:'tech', path: '/event/mysticode' },
     { name: 'Tech Trivia', src: 'tech/event3', time: '10:30AM', type:'tech' , path: '/event/tech-trivia'},
     { name: 'GrayScale', src: 'tech/event4', time: '10:30AM' , type:'tech', path: '/event/greyscale'},
-    { name: 'CyberSleuth', src: 'tech/event5', time: '10:50AM', type:'tech', path: '/event/update' }
+    { name: 'CyberSleuth', src: 'tech/event5', time: '10:50AM', type:'tech', path: '/event/cybersleuth' }
   ]
 
   const nonTech = [
@@ -35,11 +35,16 @@ function Home() {
 
   return (
     <div className='home'>
+     
       <div className="hero" style={{ zIndex: 180, position: 'relative' }}>
+       
         <div className="container logo">
           <div className="logo-img"><img width={320} src={Logo} alt="Petrona - A National Level Technical Symposium" /></div>
 
           <div className="logo-txt glow" style={{ fontFamily: 'Netron' }}>Petrona</div>
+          <div class="glitch-wrapper">
+            <div class="glitch" data-glitch="A National Level Technical Symposium">A National Level Technical Symposium</div>
+          </div>
           <Button className='reg-btn' />
         </div>
       </div>
@@ -81,17 +86,12 @@ function Home() {
       <h1 className='count-h'>SPONSORS</h1>
 
         <div className="grid-sponsers">
-          <div className="card">
-            <img src="/imgs/sponsors/sp2.webp"  width="230" alt="" />
-          </div>
+          
 
           <div className="card">
-            <img src="/imgs/sponsors/sp1.webp"  width="230" alt="" />
+            <img src="/imgs/sponsors/sp1.webp"  width="230" alt="Meriba Paneer" />
           </div>
 
-          <div className="card">
-            <img src="/imgs/sponsors/sp3.webp"  width="230" alt="" />
-          </div>
 
           <div className="card">
             <img src="/imgs/sponsors/sp4.webp"  width="230" alt="" />

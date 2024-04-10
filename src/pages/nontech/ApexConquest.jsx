@@ -7,16 +7,14 @@ function ApexConquest() {
     }, []);
 
     const rules = [
-        "Solo Only: Players must compete individually without teaming up.",
-        "Friendly Match 1: Casual gameplay mode without prizes, for practice and enjoyment.",
-        "Competitive Match 1 (Prize) (Erangel Map): Individual competition on Erangel map with prizes at stake."
+        "Player must compete individually (*solo only) ",
+        "Friendly match 1 - A casual gameplay mode without price, for practice and enjoyment.",
+        "BGMI Competitive match 1- (price) (Erangel Map)",
+        "FREE FIRE Competitive match 2- (price)(Purgatory,Kalahari)",
+        "No Teamups Allowed,If found the person will be disqualified",
+        "It is advised to use your own netowrk connection during the gameplay",
+        "Try to bring your own accessories (i.e., Chargers, headsets) "
     ];
-    
-    
-
-    
-
-
 
     return (
         <>
@@ -31,17 +29,15 @@ function ApexConquest() {
                             <Button />
 
                         </div>
-                        <h5 style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 6380381466</h5>
+                        <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 6380381466</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Jana Muthuraj M</h5>
                     </div>
                     <div className="info">
                         <h2>Description</h2>
                         <p>
-                        BGMI and Free Fire are popular mobile battle royale
-                         games with thriving esports scenes, offering intense 
-                         gameplay and frequent updates.
+                        Aim for the pinnacle and conquer the battlefield of BGMI & FREE-FIRE.
                         </p>
-                        <h2>BGMI</h2>
+                        <h2>RULES</h2>
                         <ul>
                             {rules.map((rule, index) => (
                                 <li key={index}>{rule}</li>
@@ -55,6 +51,8 @@ function ApexConquest() {
                             <p>Akilan M</p>
                             <p>Sakthivinash B</p>
                             <p>Jana Muthuraj M</p>
+                            <p>Karthikeyan K</p>
+                            <p>Prabu V</p>
                         </ul>
 
 
