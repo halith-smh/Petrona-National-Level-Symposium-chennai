@@ -52,7 +52,7 @@ function Events() {
               Shyam Kumar A
             </h5>
 
-            <a target="_blank" href="https://drive.google.com/drive/folders/1WtuoYIvdgjVKCbWZQ1QTw6fnsCpBo7o8">
+            <a target="_blank" href="https://drive.google.com/drive/folders/1B_bE0cwAyEb6qlJ1MPMa0NpQ14tzGc7b">
               <h6
                 style={{
                   marginTop: 28,
