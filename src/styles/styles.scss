@@ -558,6 +558,31 @@ body {
       /* Offset the underline slightly below the text */
     }
   }
+  /*for treasure hunt*/
+  .ribbon-particles{
+    position: absolute;
+    display: none;
+    width: 70%;
+    height: 90vh;
+    opacity: 0.9;
+    background-image: url('https://i.gifer.com/6k2.gif');
+    background-repeat: repeat-x;
+  }
+  .treasure{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 22px;
+    row-gap: 35px;
+    margin: 34px 12px;
+    button{
+      font-size: 20px;
+      cursor:help;
+      transition: all 0.3s ease;
+    }
+    button:hover{
+      transform: scale(1.08);
+    }
+  }
 }
 
 .footer {
