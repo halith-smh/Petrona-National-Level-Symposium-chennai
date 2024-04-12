@@ -37,7 +37,6 @@ function CyberSleuth() {
       <div className="events">
         <div className="count-h">CYBERSLEUTH</div>
         <div className="count-p">Treasure Hunt</div>
-        <div className="ribbon-particles" style={{display: `${display && 'block'}`}}></div>
         <div className="d-flex">
           <div className="img">
             <img src="/imgs/tech/event5.webp" width={450} alt="" />
@@ -74,6 +73,7 @@ function CyberSleuth() {
                 <li key={index}>{rule}</li>
               ))}
             </ol>
+            <div className="ribbon-particles" style={{display: `${display && 'block'}`}}></div>
 
             <h2>Rules</h2>
             <ul>
