@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Button from '../../components/Button';
+// import Button from '../../components/Button';
 
 function TechTrivia() {
     useEffect(() => {
@@ -46,11 +46,13 @@ function TechTrivia() {
                     <div className="img">
                         <img src="/imgs/tech/event3.webp" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: 0, display: 'flex', justifyContent: 'center' }}>
-                            <Button />
+                            {/* <Button /> */}
 
                         </div>
                         <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 6369386896</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Sai Manogna</h5>
+            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
+
                     </div>
                     <div className="info">
                         <h2>Description</h2>

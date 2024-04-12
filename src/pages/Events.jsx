@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Contact from "../components/Contact";
-import Button from "../components/Button";
+// import Button from "../components/Button";
 
 import Drive from "../assets/imgs/drive.png";
 
@@ -43,7 +43,8 @@ function Events() {
                 justifyContent: "center",
               }}
             >
-              <Button />
+              {/* <Button /> */}
+              
             </div>
             <h5 className='event-phone' style={{ textAlign: "center", marginTop: 28, fontSize: 21 }}>
               +91 9840440839
@@ -74,6 +75,9 @@ function Events() {
                 &nbsp;&nbsp;Upload Your PPT
               </h6>
             </a>
+
+            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
+
 
           </div>
           <div className="info">

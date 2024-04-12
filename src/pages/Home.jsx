@@ -5,7 +5,7 @@ import Logo from '../assets/imgs/logo.png'
 import '../assets/fonts/font.css'
 import '../assets/fonts/nusar.css'
 
-import Button from '../components/Button'
+// import Button from '../components/Button'
 import CountDown from '../components/CountDown'
 
 
@@ -45,7 +45,8 @@ function Home() {
           <div className="glitch-wrapper">
             <div className="glitch" style={{margin: '16px 0'}} data-glitch="A National Level Technical Symposium">A National Level Technical Symposium</div>
           </div>
-          <Button className='reg-btn' />
+          {/* <Button className='reg-btn' /> */}
+          <p style={{fontSize: 34}}>13th April'24</p>
         </div>
       </div>
       <div />

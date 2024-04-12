@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Button from '../../components/Button';
+// import Button from '../../components/Button';
 
 function ApexConquest() {
     useEffect(() => {
@@ -26,11 +26,13 @@ function ApexConquest() {
                     <div className="img">
                         <img src="/imgs/nontech/event3.webp" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
-                            <Button />
+                            {/* <Button /> */}
 
                         </div>
                         <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 34, fontSize: 21 }}>+91 6380381466</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Jana Muthuraj M</h5>
+            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
+
                     </div>
                     <div className="info">
                         <h2>Description</h2>

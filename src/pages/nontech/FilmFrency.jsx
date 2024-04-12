@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Button from '../../components/Button';
+// import Button from '../../components/Button';
 
 function FilmFrency() {
     useEffect(() => {
@@ -52,11 +52,13 @@ function FilmFrency() {
                     <div className="img">
                         <img src="/imgs/nontech/event2.webp" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: 25, marginBottom: 12,display: 'flex', justifyContent: 'center' }}>
-                            <Button />
+                            {/* <Button /> */}
 
                         </div>
                         <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 2, fontSize: 21 }}>+91 8056985449</h5>
                         <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Mokeshwar. P</h5>
+            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
+
                     </div>
                     <div className="info">
                         <h2>Description</h2>

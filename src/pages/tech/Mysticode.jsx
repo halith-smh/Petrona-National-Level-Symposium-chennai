@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Button from '../../components/Button';
+// import Button from '../../components/Button';
 
 function Mysticode() {
 
@@ -40,11 +40,13 @@ function Mysticode() {
                     <div className="img">
                         <img src="/imgs/tech/event2.webp" width={450} alt="" />
                         <div className="btn-ly" style={{ marginTop: -5, display: 'flex', justifyContent: 'center' }}>
-                            <Button />
+                            {/* <Button /> */}
 
                         </div>
                         <h5 className='event-phone' style={{ textAlign: 'center', marginTop: 28, fontSize: 21 }}>+91 9500437641</h5>
                         <h5  style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Kishoth S</h5>
+            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
+
                     </div>
                     <div className="info">
                         <h2>Description</h2>
