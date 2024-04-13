@@ -37,9 +37,9 @@ The Event Website is for managing and promoting symposium events. Built with Rea
 
 5. Open your browser and visit `http://localhost:5173` to see the app.
 
-## Demo (**Beginner Project)
+## Demo
 
-<img height="400px" src="https://petrona.vercel.app/preview.gif" />
+<img height="400px" src="https://github.com/halith-smh/Petrona-National-Level-Symposium-chennai/raw/main/public/preview.gif" />
 
 ## Contributing
 
