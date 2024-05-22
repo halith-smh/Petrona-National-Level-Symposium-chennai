@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import './App.css';
+// import './App.css';
 
-// import './styles/styles.css'
+import './styles/styles.css'
 
 import Particle from './components/Particle'
 
 import Home from './pages/Home'
 
-import Events from './pages/Events' /*mindscapes-unfold*/
+import Mindscape from './pages//tech/Mindscape'
 import Mysticode from './pages/tech/Mysticode';
 import TechTrivia from './pages/tech/TechTrivia'
 import GreyScale from './pages/tech/GreyScale'
@@ -19,6 +19,8 @@ import FilmFrency from './pages/nontech/FilmFrency'
 import ApexConquest from './pages/nontech/ApexConquest'
 
 import Footer from './components/Footer'
+
+//helper component (temp pg layout)
 // import Update from './components/Update'
 
 
@@ -32,7 +34,7 @@ function App() {
           <Route path="/" element={<Home />} />
           
           {/* Technical Events */}
-          <Route path='/event/mindscapes-unfold' element={<Events/>} />
+          <Route path='/event/mindscapes-unfold' element={<Mindscape/>} />
           <Route path='/event/mysticode' element={<Mysticode/>} />
           <Route path='/event/tech-trivia' element={<TechTrivia/>} />
           <Route path='/event/greyscale' element={<GreyScale/>} />
@@ -44,7 +46,7 @@ function App() {
           <Route path='/event/film-frency' element={<FilmFrency/>} />
           <Route path='/event/apex-conquest' element={<ApexConquest/>} />
 
-          {/* Test Route */}
+          {/* Test Route - temp */}
           {/* <Route path='/event/update' element={<Update/>} /> */}
         </Routes>
         <Footer/>

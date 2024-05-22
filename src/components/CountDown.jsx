@@ -1,36 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function CountDown() {
-    // const [countDown, setCountDown] = useState({
-    //     days: 0,
-    //     hours: 0,
-    //     minutes: 0,
-    //     seconds: 0,
-    // });
+    //timer code 
+    {/* const [countDown, setCountDown] = useState({
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+    });
 
-    // const targetDate = new Date('2024-04-13T09:30:00');
+    const targetDate = new Date('2024-04-13T09:30:00');
 
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //         const now = new Date();
-    //         const difference = targetDate.getTime() - now.getTime();
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            const now = new Date();
+            const difference = targetDate.getTime() - now.getTime();
 
-    //         // Calculate remaining days, hours, minutes, seconds
-    //         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    //         const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    //         const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    //         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+            // Calculate remaining days, hours, minutes, seconds
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-    //         setCountDown({ days, hours, minutes, seconds });
+            setCountDown({ days, hours, minutes, seconds });
 
-    //         // Stop the interval when countdown reaches 0
-    //         if (difference <= 0) {
-    //             clearInterval(intervalId);
-    //         }
-    //     }, 1000); // Update countdown every second
+            // Stop the interval when countdown reaches 0
+            if (difference <= 0) {
+                clearInterval(intervalId);
+            }
+        }, 1000); // Update countdown every second
 
-    //     return () => clearInterval(intervalId); // Cleanup function for the interval
-    // }, []);
+        return () => clearInterval(intervalId); // Cleanup function for the interval
+    }, []); */}
 
     return (
         <div className="count">
