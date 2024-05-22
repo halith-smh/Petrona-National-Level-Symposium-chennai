@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // import './App.css';
-
 import './styles/styles.css'
 
 import Particle from './components/Particle'
