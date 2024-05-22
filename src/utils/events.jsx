@@ -24,9 +24,9 @@ const EVENTS_DATA = [
         >
           <img
             width="38"
-            src="/src/assets/imgs/drive.png"
+            src="/imgs/drive.png"
             alt="google-drive"
-            class="eventIcon"
+            className="eventIcon"
             style={{ borderRadius: 0 }}
           />
           &nbsp;&nbsp;Upload Your PPT
@@ -76,3 +76,5 @@ const EVENTS_DATA = [
     ],
   },
 ];
+
+export default EVENTS_DATA;

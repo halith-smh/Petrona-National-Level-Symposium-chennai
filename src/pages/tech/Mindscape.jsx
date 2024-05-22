@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
-import Contact from "../components/Contact";
 // import Button from "../components/Button";
 
-import Drive from "../assets/imgs/drive.png";
-
-function Events() {
+function Mindscape() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
   const topics = [
     "AI in daily life",
     "The future of transportation",
@@ -68,7 +67,7 @@ function Events() {
                 <img
                   style={{ borderRadius: 0,width: '38px !importnat'}}
                   width={38}
-                  src={Drive}
+                  src="/imgs/drive.png"
                   alt="google-drive"
                   className="eventIcon"
                 />
@@ -114,4 +113,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default Mindscape;

@@ -8,7 +8,7 @@ import Particle from './components/Particle'
 
 import Home from './pages/Home'
 
-import Events from './pages/Events' /*mindscapes-unfold*/
+import Mindscape from './pages//tech/Mindscape'
 import Mysticode from './pages/tech/Mysticode';
 import TechTrivia from './pages/tech/TechTrivia'
 import GreyScale from './pages/tech/GreyScale'
@@ -32,21 +32,19 @@ function App() {
       <Particle />
         <Routes>
           <Route path="/" element={<Home />} />
-
-          <Route path='/event/:eventName' element={<ApexConquest/>} />
           
-          {/* Technical Events
-          <Route path='/event/mindscapes-unfold' element={<Events/>} />
+          {/* Technical Events */}
+          <Route path='/event/mindscapes-unfold' element={<Mindscape/>} />
           <Route path='/event/mysticode' element={<Mysticode/>} />
           <Route path='/event/tech-trivia' element={<TechTrivia/>} />
           <Route path='/event/greyscale' element={<GreyScale/>} />
           <Route path='/event/cybersleuth' element={<CyberSleuth/>} />
 
 
-          {/* Non-Technical Events 
+          {/* Non-Technical Events */}
           <Route path='/event/snap-seek' element={<SnapSeek/>} />
           <Route path='/event/film-frency' element={<FilmFrency/>} />
-          <Route path='/event/apex-conquest' element={<ApexConquest/>} /> */}
+          <Route path='/event/apex-conquest' element={<ApexConquest/>} />
 
           {/* Test Route - temp */}
           {/* <Route path='/event/update' element={<Update/>} /> */}
